@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kundali</title>
+    <!-- CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <!-- <script
+      src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"
+      data-auto-replace-svg
+    ></script> -->
+    <script src="https://use.fontawesome.com/355f007b48.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="home">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="images/logo.png" class="logo" />
+        </div>
+        <div class="col-md-5 search-margin">
+          <div class="search-container">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              class="search-input"
+            />
+            <a href="#" class="search-btn">
+              <i class="fa fa-search"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-5 nav-btn">
+          <h5 class="welcome">Welcome: <span id="name">lavish</span></h5>
+          <!-- <i class="fa fa-user user"></i> -->
+          <!-- <i class="bi bi-person-circle"></i> -->
+          <div class="icon-center">
+            <div class="dropdown">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-circle user-icon"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                />
+              </svg>
+              <div class="dropdown-content">
+                <a href="#">My Profile</a>
+                <a href="#">My Orders</a>
+                <a href="#">Track Order</a>
+                <a href="#">My Address</a>
+                <a href="index.html">Logout</a>
+              </div>
+            </div>
+
+            <!-- <i class="fas fa-cart-shopping"></i> -->
+            <i class="fa fa-cart-arrow-down user-icon fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto nav-adjust">
+          <li class="nav-item active">
+        <a href="kundali.html">Kundali</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Vastu</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Muhurt</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Pujan Samagri</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Problem Solution</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Vrat & Tyauhar</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Ask Question</a>
+          </li>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <img src="images/banner.png" alt="" class="banner-pic" />
+    <!-- KUNDALI SECTION -->
+    <section id="services">
+      <h1 class="title">Kundali</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-7.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kundali Vishleshan</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                gravida vestibulum accumsan.
+              </p>
+              <a href="kundali-vishleshan.html" class="btn btn-primary view"
+                >View More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-8.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kundali Milan</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                gravida vestibulum accumsan.
+              </p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KUNDALI PRODUCTS SECTION -->
+    <section id="services">
+      <h1 class="title">Kundali Products</h1>
+      <div class="row">
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/kun-prod.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title mar-kun">विवाह कुण्डली</h5>
+              <h5 class="card-title mar-kun">Marriage Kundali</h5>
+              <div class="rating-container">
+                <div class="sm-container">
+                  4.6 <img src="images/Star.png" alt="star" class="star" />
+                </div>
+                <p class="rating">1,002 Ratings</p>
+              </div>
+
+              <a href="#" class="btn btn-primary view buy">Buy Now</a>
+              <a href="#" class="btn btn-primary view buy">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/kun-prod.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title mar-kun">विवाह कुण्डली</h5>
+              <h5 class="card-title mar-kun">Marriage Kundali</h5>
+              <div class="rating-container">
+                <div class="sm-container">
+                  4.6 <img src="images/Star.png" alt="star" class="star" />
+                </div>
+                <p class="rating">1,002 Ratings</p>
+              </div>
+
+              <a href="#" class="btn btn-primary view buy">Buy Now</a>
+              <a href="#" class="btn btn-primary view buy">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/kun-prod.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title mar-kun">विवाह कुण्डली</h5>
+              <h5 class="card-title mar-kun">Marriage Kundali</h5>
+              <div class="rating-container">
+                <div class="sm-container">
+                  4.6 <img src="images/Star.png" alt="star" class="star" />
+                </div>
+                <p class="rating">1,002 Ratings</p>
+              </div>
+
+              <a href="#" class="btn btn-primary view buy">Buy Now</a>
+              <a href="#" class="btn btn-primary view buy">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-4 col-md-6">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/kun-prod.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title mar-kun">विवाह कुण्डली</h5>
+              <h5 class="card-title mar-kun">Marriage Kundali</h5>
+
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/kun-prod.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title mar-kun">विवाह कुण्डली</h5>
+              <h5 class="card-title mar-kun">Marriage Kundali</h5>
+
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-primary text-white text-center text-lg-start color-footer"
+    >
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">SAMAY SHAKTI</h5>
+
+            <p>
+              <i class="fa-solid fa-user"></i>
+              Samayshakti.com is an initiative of SAMAY SHAKTI ASTROLOGY
+              SERVICES PRIVATE LIMITED founded Surendra Mishra who has Divine
+              Vision to bring Astrology Services to all.
+            </p>
+            <!-- <i class="divider"></i> -->
+          </div>
+
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Quick Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">About Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Contact Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Terms & Conditions</a>
+              </li>
+            </ul>
+            <!-- <i class="divider"></i> -->
+          </div>
+
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Contact Us</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">900 623 28298</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">support@samayshakti.com</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © All Rights Reserved 2022
+      </div>
+    </footer>
+  </body>
+</html>

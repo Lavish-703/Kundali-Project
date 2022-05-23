@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <!-- CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <!-- <script
+      src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"
+      data-auto-replace-svg
+    ></script> -->
+    <script src="https://use.fontawesome.com/355f007b48.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="home">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="images/logo.png" class="logo" />
+        </div>
+        <div class="col-md-5 search-margin">
+          <div class="search-container">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              class="search-input"
+            />
+            <a href="#" class="search-btn">
+              <i class="fa fa-search"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-5 nav-btn">
+          <h5 class="welcome">Welcome: <span id="name">lavish</span></h5>
+          <!-- <i class="fa fa-user user"></i> -->
+          <!-- <i class="bi bi-person-circle"></i> -->
+          <div class="icon-center">
+            <div class="dropdown">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-circle user-icon"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                />
+              </svg>
+              <div class="dropdown-content">
+                <a href="#">My Profile</a>
+                <a href="#">My Orders</a>
+                <a href="#">Track Order</a>
+                <a href="#">My Address</a>
+                <a href="index.html">Logout</a>
+              </div>
+            </div>
+
+            <!-- <i class="fas fa-cart-shopping"></i> -->
+            <i class="fa fa-cart-arrow-down user-icon fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto nav-adjust">
+          <li class="nav-item active">
+        <a href="kundali.html">Kundali</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Vastu</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Muhurt</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Pujan Samagri</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Problem Solution</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Vrat & Tyauhar</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Ask Question</a>
+          </li>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <nav class="navbar">
+      <a href="kundali.html">Kundali</a>
+      <a href="#">Vastu</a>
+      <a href="#">Muhurt</a>
+      <a href="#">Pujan Samagri</a>
+      <a href="#">Problem Solution</a>
+      <a href="#">Vrat & Tyauhar</a>
+      <a href="#">Ask Question</a>
+      <a href="#">Appointment</a>
+    </nav> -->
+
+    <!-- <div>
+      <img class="home-img" src="images/banner.png" alt="" />
+    </div> -->
+
+    <section class="banner-carousel">
+      <input class="banner-input" type="radio" id="trigger1" name="slider" />
+      <label class="banner-label" for="trigger1"></label>
+      <div class="slide bg1"></div>
+
+      <input
+        class="banner-input"
+        type="radio"
+        id="trigger2"
+        name="slider"
+        checked
+        autofocus
+      />
+      <label class="banner-label" for="trigger2"></label>
+      <div class="slide bg2"></div>
+
+      <input class="banner-input" type="radio" id="trigger3" name="slider" />
+      <label class="banner-label" for="trigger3"></label>
+      <div class="slide bg3"></div>
+    </section>
+
+    <section id="features">
+      <h1 class="title">Our Services</h1>
+      <div class="row">
+        <div
+          class="MultiCarousel"
+          data-items="1,3,5,6"
+          data-slide="1"
+          id="MultiCarousel"
+          data-interval="1000"
+        >
+          <div class="MultiCarousel-inner">
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+            <div class="feature-box col-md-2 item">
+              <img src="images/kundali.JPG" alt="" class="kundali-img" />
+              <h5 class="feature-title">Kundali</h5>
+            </div>
+          </div>
+          <button class="btn btn-primary leftLst"><</button>
+          <button class="btn btn-primary rightLst">></button>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="features">
+      <h1 class="title">Our Services</h1>
+      <div class="row">
+        <div class="feature-box col-md-2">
+          <img src="images/kundali.JPG" alt="" class="kundali-img" />
+          <h5 class="feature-title">Kundali</h5>
+        </div>
+        <div class="feature-box col-md-2">
+          <img src="images/kundali.JPG" alt="" class="kundali-img" />
+          <h5 class="feature-title">Kundali</h5>
+        </div>
+        <div class="feature-box col-md-2">
+          <img src="images/kundali.JPG" alt="" class="kundali-img" />
+          <h5 class="feature-title">Kundali</h5>
+        </div>
+        <div class="feature-box col-md-2">
+          <img src="images/kundali.JPG" alt="" class="kundali-img" />
+          <h5 class="feature-title">Kundali</h5>
+        </div>
+        <div class="feature-box col-md-2">
+          <img src="images/kundali.JPG" alt="" class="kundali-img" />
+          <h5 class="feature-title">Kundali</h5>
+        </div>
+        <div class="feature-box col-md-2">
+          <img src="images/kundali.JPG" alt="" class="kundali-img" />
+          <h5 class="feature-title">Kundali</h5>
+        </div>
+      </div>
+    </section> -->
+
+    <h1 class="title">!! आज का पंचांग !!</h1>
+    <img class="book" src="images/book-1.JPG" alt="" />
+    <img src="images/bg-2.JPG" alt="" class="bg-2" />
+
+    <!-- Muhurt Section -->
+    <section id="muhurt">
+      <h1 class="title">Muhurt</h1>
+      <div class="row text-center">
+        <div
+          class="MultiCarousel"
+          data-items="1,3,5,6"
+          data-slide="1"
+          id="MultiCarousel"
+          data-interval="1000"
+        >
+          <div class="MultiCarousel-inner">
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Gadi</h5>
+              <h5 class="sub-title">Kharidne Ka</h5>
+              <h5 class="sub-title">Muhurt</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Marrige Muhurt</h5>
+              <h5 class="sub-title">Shadi Muhurt</h5>
+              <h5 class="sub-title">शुभ विवाह मुहूर्त</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Ring Ceremony</h5>
+              <h5 class="sub-title">Muhurt Chheka</h5>
+              <h5 class="sub-title">Muhurt छेका मुहूर्त</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Gadi</h5>
+              <h5 class="sub-title">Kharidne Ka</h5>
+              <h5 class="sub-title">Muhurt</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Marrige Muhurt</h5>
+              <h5 class="sub-title">Shadi Muhurt</h5>
+              <h5 class="sub-title">शुभ विवाह मुहूर्त</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Marrige Muhurt</h5>
+              <h5 class="sub-title">Shadi Muhurt</h5>
+              <h5 class="sub-title">शुभ विवाह मुहूर्त</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Marrige Muhurt</h5>
+              <h5 class="sub-title">Shadi Muhurt</h5>
+              <h5 class="sub-title">शुभ विवाह मुहूर्त</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Marrige Muhurt</h5>
+              <h5 class="sub-title">Shadi Muhurt</h5>
+              <h5 class="sub-title">शुभ विवाह मुहूर्त</h5>
+            </div>
+            <div class="col item">
+              <img src="images/Ellipse 4.png" alt="" class="ellipse" />
+              <h5 class="sub-title">Marrige Muhurt</h5>
+              <h5 class="sub-title">Shadi Muhurt</h5>
+              <h5 class="sub-title">शुभ विवाह मुहूर्त</h5>
+            </div>
+          </div>
+          <button class="btn btn-primary leftLst"><</button>
+          <button class="btn btn-primary rightLst">></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section id="services">
+      <h1 class="title">Top Services</h1>
+      <div class="row">
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-1.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vastu</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                gravida vestibulum accumsan.
+              </p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-2.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Problem Solution</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                gravida vestibulum accumsan.
+              </p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-3.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bhajan</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                gravida vestibulum accumsan.
+              </p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUJAN SAMAGRI SECTION -->
+    <section id="services">
+      <h1 class="title">Pujan Samagri</h1>
+      <div class="row">
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-4.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Astgandh - अष्टगंध</h5>
+              <p class="card-text">50g RS 100</p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-5.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Janeu जनेउ</h5>
+              <p class="card-text">Rs. 50</p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col card-col">
+          <div class="card" style="width: 25rem">
+            <img
+              class="card-img-top"
+              src="images/card-6.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Agarbatti अगरबत्ती</h5>
+              <p class="card-text">2 Box - Rs. 50</p>
+              <a href="#" class="btn btn-primary view">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-primary text-white text-center text-lg-start color-footer"
+    >
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">SAMAY SHAKTI</h5>
+
+            <p>
+              <i class="fa-solid fa-user"></i>
+              Samayshakti.com is an initiative of SAMAY SHAKTI ASTROLOGY
+              SERVICES PRIVATE LIMITED founded Surendra Mishra who has Divine
+              Vision to bring Astrology Services to all.
+            </p>
+            <!-- <i class="divider"></i> -->
+          </div>
+
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Quick Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">About Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Contact Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Terms & Conditions</a>
+              </li>
+            </ul>
+            <!-- <i class="divider"></i> -->
+          </div>
+
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Contact Us</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">900 623 28298</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">support@samayshakti.com</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © All Rights Reserved 2022
+      </div>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kundali Vishleshan</title>
+    <!-- CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <!-- <script
+      src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"
+      data-auto-replace-svg
+    ></script> -->
+    <script src="https://use.fontawesome.com/355f007b48.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="home">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="images/logo.png" class="logo" />
+        </div>
+        <div class="col-md-5 search-margin">
+          <div class="search-container">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              class="search-input"
+            />
+            <a href="#" class="search-btn">
+              <i class="fa fa-search"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-5 nav-btn">
+          <h5 class="welcome">Welcome: <span id="name">lavish</span></h5>
+          <!-- <i class="fa fa-user user"></i> -->
+          <!-- <i class="bi bi-person-circle"></i> -->
+          <div class="icon-center">
+            <div class="dropdown">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-circle user-icon"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                />
+              </svg>
+              <div class="dropdown-content">
+                <a href="#">My Profile</a>
+                <a href="#">My Orders</a>
+                <a href="#">Track Order</a>
+                <a href="#">My Address</a>
+                <a href="index.html">Logout</a>
+              </div>
+            </div>
+
+            <!-- <i class="fas fa-cart-shopping"></i> -->
+            <i class="fa fa-cart-arrow-down user-icon fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto nav-adjust">
+          <li class="nav-item active">
+        <a href="kundali.html">Kundali</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Vastu</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Muhurt</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Pujan Samagri</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Problem Solution</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Vrat & Tyauhar</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Ask Question</a>
+          </li>
+          </li>
+          <li class="nav-item active">
+            <a href="#">Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <img src="images/banner.png" alt="" class="banner-pic" />
+
+    <form class="form form-container" id="login-form" method="POST" action="kundali-vishleshan.html">
+      <div class="heading-container">
+        <h3 class="heading">Kundali Vishleshan</h3>
+      </div>
+      
+      <div class="inner-container">
+        <div class="row">
+          <div class="col">
+            <div class="element">
+              <label for="name">नाम (Name)</label>
+              <input class="form-input" type="text" placeholder="नाम (Name)" id="username" name="username"/>
+            </div>
+            
+          <div class="element">
+            <label for="dob">जन्म तिथि</label>
+            <input class="form-input" placeholder="जन्म तिथि" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+          </div>
+
+          <div class="element">
+            <label for="state">राज्य (State)</label>
+            <select name="state" id="state" class="form-input">
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="Puducherry">Puducherry</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option>
+              </select>
+          </div>
+
+          <div class="element">
+            <label for="kundali-image">कुण्डली फोटो (Kundali Image)</label>
+            <input class="form-input" type="file" id="kundali-image" name="kundali-image">
+          </div>
+        </div> 
+          <div class="col">
+            <div class="element">
+              <label for="petName">पुकारु नाम (Pet Name)</label>
+              <input class="form-input" type="text" placeholder="पुकारु नाम (Pet Name)" id="petName" name="petName"/>
+            </div>
+            <div class="element">
+              <label for="place">जन्म स्थान</label>
+              <input class="form-input" type="text" placeholder="जन्म स्थान" id="place" name="place"/>
+            </div>
+            <div class="element">
+              <label for="gender">लिंग (Gender)</label>
+            <select name="gender" id="gender" class="form-input">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+              <option value="no-prefer">Prefer not to say</option>
+            </select>
+            </div>
+
+            <div class="element">
+              <label for="user-image">आपकी फोटो (Your Image)</label>
+              <input class="form-input" type="file" id="user-image" name="user-image">
+            </div>
+            
+          </div> 
+        </div>
+      </div>
+
+      
+      
+      <section id="services">
+        <h1 class="title">कुण्डली मिलान का प्रकार चुनें </h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card" style="width: 25rem">
+              <img
+                class="card-img-top"
+                src="images/vish-1.JPG"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vastu</h5>
+                <ul class="card-text text-left">
+                  <li>Audio Vishleshan</li>
+                  <li>Written Vishleshan</li>
+                  <li>20 Days Chatting with Astrologer</li>
+                  <li>Ask 3 Questions Related to Kundali</li>
+                </ul>
+                <a href="#" class="btn btn-primary view">Select</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card" style="width: 25rem">
+              <img
+                class="card-img-top"
+                src="images/vish-2.JPG"
+                alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Problem Solution</h5>
+                  <ul class="card-text text-left">
+                    <li>Audio Vishleshan</li>
+                    <li>Written Vishleshan</li>
+                    <li>25 Days Chatting with Astrologer</li>
+                    <li>Ask 5 Questions Related to Kundali</li>
+                    <li>20 Minutes talk to astrologer on call</li>
+                  </ul>
+                <a href="#" class="btn btn-primary view">Select</a>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <div class="element quest">
+        <label for="user-image">कोई विशेष प्रश्न ?</label>
+        <textarea class="form-question" id="question" name="question" rows="4" cols="50" placeholder="जैसे मेरे विवाह में विलंभ क्यों हो रही है ?"></textarea>
+      </div>
+      <div class="center-btn">
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+      </div>
+
+    </form>
+  </div>
+  
+
+  </body>
+  </html>
+  
