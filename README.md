@@ -2,4 +2,6 @@
 
 Login Credentials:
 
-Email: lavish@gmail.com     Password: Lavish@123
+Email: lavish@gmail.com     
+
+Password: Lavish@123
